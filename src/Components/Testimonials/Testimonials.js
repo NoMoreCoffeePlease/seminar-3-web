@@ -1,6 +1,6 @@
 import React from "react";
 import './Testimonials.css'
-import TestimonialCard from "../Testimonials/TestimonailCard";
+import TestimonialCard from "./TestimonailCard";
 import pictureTestimonial1 from "../../Images/TestimonialPictures/Oval.png";
 
 function Testimonials() {
@@ -13,14 +13,14 @@ function Testimonials() {
         "“Certe, inquam, pertinax non existimant oportere exquisitis rationibus conquisitis de quo enim ipsam. Torquem detraxit hosti et quidem faciunt, ut aut.”",
     },
     {
-      name: "Lara Madrigal",
+      name: "Lara Madrigal2",
       position: "client",
       picture: pictureTestimonial1,
       testimonial:
         "“Certe, inquam, pertinax non existimant oportere exquisitis rationibus conquisitis de quo enim ipsam. Torquem detraxit hosti et quidem faciunt, ut aut.”",
     },
     {
-      name: "Lara Madrigal",
+      name: "Lara Madrigal3",
       position: "client",
       picture: pictureTestimonial1,
       testimonial:
