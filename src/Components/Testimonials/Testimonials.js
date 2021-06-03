@@ -1,5 +1,5 @@
 import React from "react";
-import './Testimonials.css'
+import "./Testimonials.css";
 import TestimonialCard from "./TestimonailCard";
 import pictureTestimonial1 from "../../Images/TestimonialPictures/Oval.png";
 
@@ -31,12 +31,20 @@ function Testimonials() {
     <div className="container testimonials boxed-content">
       <div className="row">
         {testimonials.map((testimonials) => (
-          <TestimonialCard
-            name={testimonials.name}
-            position={testimonials.position}
-            picture={testimonials.picture}
-            testimonial={testimonials.testimonial}
-          />
+          <div>
+            <TestimonialCard
+              name={testimonials.name}
+              position={testimonials.position}
+              picture={testimonials.picture}
+              testimonial={testimonials.testimonial}
+            />
+            <TestimonialCard
+              name={testimonials.name}
+              position={testimonials.position}
+              picture={testimonials.picture}
+              testimonial={testimonials.testimonial}
+            />
+          </div>
         ))}
       </div>
     </div>
